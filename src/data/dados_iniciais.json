@@ -1,0 +1,102 @@
+{
+  "categorias": [
+    {
+      "titulo": "Música",
+      "link": "https://www.youtube.com/channel/UC1OR2YNQLZJYFdQjFrPWvVw",
+      "cor": "#6BD1FF",
+      "link_extra": {
+        "text": "Backstreet Boys",
+        "url": "https://www.youtube.com/channel/UC1OR2YNQLZJYFdQjFrPWvVw"
+      },
+      "videos": [
+        {
+          "titulo": "Luflix",
+          "url": "https://www.youtube.com/watch?v=WVe80iZtlYU"
+        },
+        {
+          "titulo": "I Want It That Way",
+          "url": "https://www.youtube.com/watch?v=4fndeDfaWCg"
+        },
+        {
+          "titulo": "As Long As You Love Me",
+          "url": "https://www.youtube.com/watch?v=0Gl2QnHNpkA"
+        },
+        {
+          "titulo": "Chances",
+          "url": "https://www.youtube.com/watch?v=W5kM5wAwRug"
+        },
+        {
+          "titulo": "Don't Go Breaking My Heart",
+          "url": "https://www.youtube.com/watch?v=6SuMbFuKDf8"
+        },
+        {
+          "titulo": "Everybody",
+          "url": "https://www.youtube.com/watch?v=6M6samPEMpM"
+        }
+      ]
+    },
+    {
+      "titulo": "Séries",
+      "cor": "#00C86F",
+      "videos": [
+        {
+          "titulo": "The Walking Dead",
+          "url": "https://www.youtube.com/watch?v=DHQzM5Ee4cw"
+        },
+        {
+          "titulo": "Outlander",
+          "url": "https://www.youtube.com/watch?v=2fwN6TPpB04"
+        },
+        {
+          "titulo": "Dark",
+          "url": "https://www.youtube.com/watch?v=9RNHKKYJvg8"
+        },
+        {
+          "titulo": "Stranger Things",
+          "url": "https://www.youtube.com/watch?v=b9EkMc79ZSU"
+        },
+        {
+          "titulo": "La casa de papel",
+          "url": "https://www.youtube.com/watch?v=yKXYXgo7a3I"
+        }
+      ]
+    },
+
+    {
+      "titulo": "Filmes",
+      "cor": "orange",
+      "videos": [
+        {
+          "titulo": "Vingadores: Guerra Infinita",
+          "url": "https://www.youtube.com/watch?v=t_ULBP6V9bg"
+        },
+        {
+          "titulo": "Coringa",
+          "url": "https://www.youtube.com/watch?v=jfVTJm9NilA"
+        },
+        {
+          "titulo": "Jumanji",
+          "url": "https://www.youtube.com/watch?v=8WaAUE4MXs8"
+        },
+        {
+          "titulo": "50 tons de cinza",
+          "url": "https://www.youtube.com/watch?v=DEwIt4amgq4"
+        }
+      ]
+    },
+    {
+      "titulo": "Games",
+      "cor": "red",
+      "videos": [
+        {
+          "titulo": "Uncharted 4",
+          "url": "https://www.youtube.com/watch?v=hh5HV4iic1Y"
+        },
+        {
+          "titulo": "Lego Harry Potter",
+          "url": "https://www.youtube.com/watch?v=tiv2tySHzQQ"
+        }
+      ]
+    }
+  ]
+}
