@@ -1,13 +1,14 @@
-import React, { useState } from "react";
-import { Link } from "react-router-dom";
-import PageDefault from "../../../components/PageDefault";
-import FormField from "../../../components/FormField";
+import React, { useState, useEffect } from 'react';
+import { Link } from 'react-router-dom';
+import PageDefault from '../../../components/PageDefault';
+import FormField from '../../../components/FormField';
+import Button from '../../../components/Button';
 
 function CadastroCategoria() {
   const valoresIniciais = {
-    nome: "",
-    descricao: "",
-    cor: "#000",
+    nome: '',
+    descricao: '',
+    cor: '#000',
   };
   const [values, setValues] = useState(valoresIniciais);
   const [categorias, setCategorias] = useState([]);
@@ -21,11 +22,21 @@ function CadastroCategoria() {
 
   function handleChange(infosDoEvento) {
     setValue(
-      infosDoEvento.target.getAttribute("name"),
+      infosDoEvento.target.getAttribute('name'),
       infosDoEvento.target.value
     );
   }
-  console.log("values.nome", values.nome);
+
+  useEffect(() => {
+    console.log('aqui');
+    const URL_TOP = 'http://localhost:8080/categorias';
+
+    fetch(URL_TOP).then(async (respostaDoServidor) => {
+      const resposta = await respostaDoServidor.json();
+      setCategorias([...resposta]);
+    });
+  }, []);
+
   return (
     <PageDefault>
       <h1>Cadastro de Categoria: {values.nome}</h1>
@@ -47,7 +58,7 @@ function CadastroCategoria() {
 
         <FormField
           label="Descrição"
-          type="??"
+          type="textarea"
           name="descricao"
           value={values.descricao}
           onChange={handleChange}
@@ -61,12 +72,12 @@ function CadastroCategoria() {
           onChange={handleChange}
         />
 
-        <button>Cadastrar</button>
+        <Button>Cadastrar</Button>
       </form>
 
       <ul>
-        {categorias.map((categoria, indice) => {
-          return <li key={`${categoria}${indice}`}>{categoria.nome}</li>;
+        {categorias.map((categoria) => {
+          return <li key={`${categoria.nome}`}>{categoria.nome}</li>;
         })}
       </ul>
       <Link to="/">Ir para home</Link>

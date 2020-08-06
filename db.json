@@ -1,0 +1,16 @@
+{
+  "categorias": [
+    {
+      "id": 1,
+      "nome": "Front",
+      "descricao": "teste",
+      "cor": "#cbd1ff"
+    },
+    {
+      "id": 2,
+      "nome": "Back",
+      "descricao": "teste",
+      "cor": "#cbd1ff"
+    }
+  ]
+}
