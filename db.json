@@ -1,16 +1,137 @@
 {
   "categorias": [
     {
-      "id": 1,
-      "nome": "Front",
-      "descricao": "teste",
-      "cor": "#cbd1ff"
+      "id": 4,
+      "titulo": "Música",
+      "cor": "#ff6a00"
+    },
+    {
+      "id": 3,
+      "titulo": "Games",
+      "cor": "red"
     },
     {
       "id": 2,
-      "nome": "Back",
-      "descricao": "teste",
-      "cor": "#cbd1ff"
+      "titulo": "Filmes",
+      "cor": "orange"
+    },
+    {
+      "id": 1,
+      "titulo": "Séries",
+      "cor": "#6BD1FF"
+    }
+  ],
+  "videos": [
+    {
+      "id": 1,
+      "categoriaId": 1,
+      "titulo": "The Walking Dead",
+      "url": "https://www.youtube.com/watch?v=DHQzM5Ee4cw",
+      "description": "A maior série de zumbis"
+    },
+    {
+      "id": 2,
+      "categoriaId": 1,
+      "titulo": "Outlander",
+      "url": "https://www.youtube.com/watch?v=2fwN6TPpB04",
+      "description": "O amor atraves do tempo"
+    },
+    {
+      "id": 3,
+      "categoriaId": 1,
+      "titulo": "Dark",
+      "url": "https://www.youtube.com/watch?v=9RNHKKYJvg8",
+      "description": "Sem explições"
+    },
+    {
+      "id": 4,
+      "categoriaId": 1,
+      "titulo": "Stranger Things",
+      "url": "https://www.youtube.com/watch?v=b9EkMc79ZSU"
+    },
+    {
+      "id": 5,
+      "categoriaId": 1,
+      "titulo": "La casa de papel",
+      "url": "https://www.youtube.com/watch?v=yKXYXgo7a3I"
+    },
+    {
+      "id": 6,
+      "categoriaId": 2,
+      "titulo": "Vingadores: Guerra Infinita",
+      "url": "https://www.youtube.com/watch?v=t_ULBP6V9bg"
+    },
+    {
+      "id": 7,
+      "categoriaId": 2,
+      "titulo": "Coringa",
+      "url": "https://www.youtube.com/watch?v=jfVTJm9NilA"
+    },
+    {
+      "id": 8,
+      "categoriaId": 2,
+      "titulo": "Jumanji",
+      "url": "https://www.youtube.com/watch?v=8WaAUE4MXs8"
+    },
+    {
+      "id": 9,
+      "categoriaId": 2,
+      "titulo": "50 tons de cinza",
+      "url": "https://www.youtube.com/watch?v=DEwIt4amgq4"
+    },
+    {
+      "id": 10,
+      "categoriaId": 3,
+      "titulo": "Uncharted 4",
+      "url": "https://www.youtube.com/watch?v=hh5HV4iic1Y"
+    },
+    {
+      "id": 11,
+      "categoriaId": 3,
+      "titulo": "Lego Harry Potter",
+      "url": "https://www.youtube.com/watch?v=tiv2tySHzQQ"
+    },
+    {
+      "id": 12,
+      "categoriaId": 4,
+      "titulo": "I Want It That Way",
+      "url": "https://www.youtube.com/watch?v=4fndeDfaWCg"
+    },
+    {
+      "id": 13,
+      "categoriaId": 4,
+      "titulo": "As Long As You Love Me",
+      "url": "https://www.youtube.com/watch?v=0Gl2QnHNpkA"
+    },
+    {
+      "id": 14,
+      "categoriaId": 4,
+      "titulo": "Chances",
+      "url": "https://www.youtube.com/watch?v=W5kM5wAwRug"
+    },
+    {
+      "id": 15,
+      "categoriaId": 4,
+      "titulo": "Don't Go Breaking My Heart",
+      "url": "https://www.youtube.com/watch?v=6SuMbFuKDf8"
+    },
+    {
+      "id": 16,
+      "categoriaId": 4,
+      "titulo": "Everybody",
+      "url": "https://www.youtube.com/watch?v=6M6samPEMpM"
+    },
+    {
+      "titulo": "Video padrão",
+      "url": "https://www.youtube.com/watch?v=xdHo7oLRjF8",
+      "categoriaId": 4,
+      "id": 17
+    },
+    {
+      "titulo": "Fall Guys",
+      "url": "https://www.youtube.com/watch?v=FcITAzKW3fY",
+      "categoriaId": 3,
+      "id": 18
     }
   ]
 }
